@@ -1,0 +1,20 @@
+commands
+
+These are only some very basic facts about emacs. To learn more, the on-line tutorial within emacs itself is very good. To get to it type (within emacs):
+CTRL-h t
+To execute Control commands, written as CTRL-letter, hold down the Control key while typing the letter indicated.
+To execute Escape commands, written as ESC letter, press the Escape key (once) and then type the letter indicated.
+
+To start emacs, type
+
+emacs filename
+and hit the Return key.
+To exit emacs, type
+
+CTRL-x CTRL-c
+You will be asked whether you want to save the file.
+You can also save your work without exiting, by typing
+
+CTRL-x CTRL-s
+It is a good idea to do this regularly while editing your files, although emacs is pretty good at making backup copies (the names of those files end in ~) and saving your files if the system crashes (the names of those files begin with #).
+
